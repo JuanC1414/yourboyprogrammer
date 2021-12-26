@@ -132,19 +132,22 @@ nav ul li a{
 /* SECCION DE QUIENES SOMOS*/
 .quienessomos {
     width: auto;
-    height: auto;
-    background: #CEB2A2 ;
+    height: 350px;
+    background: #033249 ;
 }
 
-.quienessomos img {
-    width: -webkit-fill-available;
-    height: 700px;
+.slider-presentacion {
+    width: auto;
+    margin-top: 0px;
 }
+
+
 /* BARRA ICONOS REDES SOCIALES 1 position: flex*/
-.social-bar {
+.social-bar { 
+    position: absolute;
+    margin-right:0px;
     right: 56;
     font-size: 1.5rem;
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -293,6 +296,7 @@ ul {
 .logo {
     text-align: center;
     font-size: 27px;
+    margin-block: 20px;
 }
 .contact-wrapper {
     box-shadow: 0 0 20px 0 black;
@@ -368,6 +372,7 @@ ul {
         display: grid;
         grid-template-columns: 2fr 1fr;
         margin: 20px;
+        border-radius: 5px;
     }
     .contact-wrapper > * {
         padding: 2em;
