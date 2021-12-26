@@ -357,9 +357,14 @@ ul {
     background: #033249;
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+.contact-info h4, .contact-info ul {
     text-align: center;
     margin: 0 0 1rem 0;
+    margin-left: -40px;
+}
+.contact-info p {
+    text-align: left;
+    margin-left: 1px;
 }
 
 
